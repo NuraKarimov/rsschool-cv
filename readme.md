@@ -1,1 +1,1 @@
-https://NuraKarimov.github.io/rsschool-cv/cv
+https://NuraKarimov.github.io/rsschool-cv/cv1
