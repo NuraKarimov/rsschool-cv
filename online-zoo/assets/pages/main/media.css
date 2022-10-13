@@ -1,125 +1,126 @@
 @media (max-width: 1200px) {
 
-  .info {
+  .backstage {
       padding-left: 0;
   }
 
-  .info__title-img {
+  .backstage__title-img {
       width: 500px;
+
   }
 
-  .info__flower--photo-2 {
+  .backstage__flower--photo-two {
       height: 180px;
   }
 
-  .info__flower--palm {
+  .backstage__flower--palm {
       left: 396px;
       bottom: 105px;
       width: 386px;
   }
 
-  .info__title-block {
+  .backstage__title-block {
       height: 408px;
       margin-bottom: 152px;
       justify-content: flex-start;
   }
 
-  .info__title-img {
+  .backstage__title-img {
       width: 455px;
       object-fit: none;
   }
 
-  .info__title-content {
+  .backstage__title-content {
       margin-top: -8px;
       width: 453px;
   }
 
-  .info__content {
+
+  .backstage__content {
       padding: 0 10px;
   }
 
-  .info__card {
+  .backstage__card {
       width: 294px;
       height: 354px;
   }
 
-  .info__card-image {
+  .backstage__card-image {
       width: calc(100% - 2px);
       height: 294px;
   }
 
-  .info__card-image img {
+  .backstage__card-image img {
+
       height: 294px;
   }
 
-  .info__cards {
-      row-gap: 92px;
-      padding: 0 1px;
-  }
-
-  .info__card-caption {
+  .backstage__card-caption {
       width: 294px;
   }
 
   .cards-button.prev {
-      left: 355px;
-      top: 402px;
+      left: 365px;
+      transform: translate(-51%, -140%);
   }
 
   .cards-button.next {
-      right: 291px;
-      top: 402px;
+      right: 300px;
+      transform: translate(-51%, -140%);
   }
 
-  .donation {
+  .friends {
       padding: 30px 15px 0;
       min-height: 876px;
   }
 
-  .donation__content {
+  .friends__content {
       padding: 30px 47px 100px 49px;
       height: 796px;
   }
 
-  .donation__title {
+  .friends__title {
       margin-bottom: 21px;
   }
 
-  .donation__subtitle {
+  .friends__subtitle {
       margin-bottom: 21px;
   }
 
-  .donation__note {
+  .friends__note {
       white-space: normal;
       margin-right: 30px;
   }
 
-  .donation__text br {
+  .friends__text br {
       display: none;
   }
 
-  .donation__text {
+  .friends__text {
       margin-bottom: 40px;
   }
 
-  .donation__cards {
+  .friends__cards {
       margin-bottom: 73px;
   }
 
-  .comments {
+  .request {
       height: 842px;
   }
 
-  .comments__container {
+  .request__container {
       padding-top: 102px;
 
   }
 
-  .comments__title {
+  .request__title {
       margin-bottom: 32px;
   }
 
-  .comments__card {
+  .request__cards-block {
+      max-width: 940px;
+  }
+  .request__card {
       width: 293px;
       height: 391px;
   }
@@ -129,23 +130,23 @@
       height: 387px;
   }
 
-  .comments__card:last-child {
+  .request__card:last-child {
       display: none;
   }
 
-  .comments__scroll {
+  .request__scroll {
       width: 390px;
   }
 
-  .comments__scroll::-webkit-slider-thumb {
+  .request__scroll::-webkit-slider-thumb {
       width: 75px;
   }
 
-  .comments__cards-block {
+  .request__cards-block {
       margin-bottom: 21px;
   }
 
-  .info__flower--leav {
+  .backstage__flower--leav {
       height: 328px;
       bottom: -88px;
   }
@@ -157,7 +158,7 @@
 
   .subscribe-form {
       position: relative;
-      right: 83px;
+      right: 98px;
   }
 
   .footer__aside-container {
@@ -178,6 +179,7 @@
       max-width: 1000px;
       overflow: hidden;
   }
+
   .footer__copyright {
       position: relative;
       left: 20px;
@@ -187,6 +189,7 @@
       overflow: hidden;
       height: 390px;
   }
+
   .panda-block img {
       width: 126%;
   }
@@ -195,47 +198,67 @@
   .donate {
       height: 1333px;
   }
+
   .donate__title {
       width: 80%;
       margin-bottom: 30px;
   }
+
   .feed__info {
       margin-bottom: 39px;
   }
+
   .feed__block {
       padding: 21px 49px 20px 35px;
       height: 919px;
   }
+
   .feed__title {
       margin-bottom: 13px;
   }
+
   .pay__container {
       align-self: center;
   }
+
   .pay__title {
       padding-left: 43px;
   }
+
   .pay__line {
       left: 42px;
       width: 810px;
   }
+
   .pay__line:after {
       width: 775px;
       left: 20px;
   }
+
   .pay__line-block {
       padding-left: 13px;
   }
+
   .pay__point:first-child {
       display: none;
   }
+
   .pay__cost {
       padding-left: 26px;
   }
+
   .radio-container {
       gap: 48px;
   }
 
+  .swiper-slide {
+      gap: 92px;
+  }
+
+  .swiper-container {
+
+      max-width: 945px;
+  }
 
 }
 
@@ -245,7 +268,7 @@
       max-width: 940px;
   }
 
-  .panda {
+  .general {
       height: 584px;
   }
 
@@ -253,29 +276,30 @@
       gap: 48px;
   }
 
-  .panda__title {
+  .general__title {
       font-size: 85px;
       top: 122px;
       right: 21px;
   }
 
-  .panda__content:after {
+  .general__content:after {
       top: 69px;
       right: 162px;
       width: 367px;
       height: 367px;
   }
 
-  .panda__background {
+  .general__background {
       height: 584px;
   }
 
-  .panda__content .btn {
+  .general__content .main__button {
       bottom: 47px;
       right: 122px;
   }
 
-  .info {
+  /*------------------------------------*/
+  .backstage {
       padding-top: 109px;
       height: 1635px;
       display: flex;
@@ -283,73 +307,70 @@
       flex-direction: column;
   }
 
-  .info__flower--photo-1 {
+  .backstage__flower--photo-one {
       display: none;
   }
 
-  .info__cards {
-      column-gap: 28px;
-  }
-
   .cards-button.prev {
-    left: 356px;
-    top: 376px;
+      left: 365px;
+      transform: translate(-51%, -83%);
   }
 
   .cards-button.next {
-    right: 302px;
-    top: 376px;
+      right: 300px;
+      transform: translate(-51%, -83%);
   }
 
 }
 
 @media (max-width: 999px) {
 
-  .info {
+
+  .general__background {
+      min-height: auto;
+  }
+  .backstage {
       padding-top: 68px;
       overflow: hidden;
       height: 1410px;
   }
 
-  .info__title-block {
+  .backstage__title-block {
       justify-content: flex-start;
       margin-left: 7px;
       margin-bottom: 33px;
+
   }
 
-  .info__title-img {
+  .backstage__title-img {
       display: none;
   }
 
-  .info__flower--photo-1 {
+  .backstage__flower--photo-one {
       display: block;
       height: 476px;
       right: -28px;
       top: -4px;
   }
 
-  .info__text:first-of-type {
+  .backstage__text:first-of-type {
       margin-bottom: 31px;
   }
 
-  .info__subtitle {
+  .backstage__subtitle {
       margin-bottom: 20px;
   }
 
-  .info__text {
+  .backstage__text {
       width: 495px;
   }
 
-  .info__cards {
-      grid-template-columns: 1fr 1fr;
-  }
-
-  .info__card {
+  .backstage__card {
       width: 286px;
       height: 332px;
   }
 
-  .info__card-caption {
+  .backstage__card-caption {
       width: 285px;
       height: 45px;
       padding-top: 5px;
@@ -364,92 +385,97 @@
       font-size: 12px;
   }
 
-  .info__card-caption svg {
+  .backstage__card-caption svg {
       width: 26px;
       height: 29px;
       right: 8px;
   }
 
-  .info__card-image {
+  .backstage__card-image {
       height: 283px;
       overflow: hidden;
   }
 
   .cards-button.prev {
-    left: 256px;
-    top: 356px;
+      left: 256px;
+      transform: translate(-51%, -96%);
+
   }
 
   .cards-button.next {
-    right: 192px;
-    top: 356px;
+      right: 192px;
+      transform: translate(-51%, -96%);
+
   }
 
-  .info__card:nth-last-child(3) {
+  .backstage__card:nth-last-child(3) {
       display: block;
+
   }
 
-  .info__card:nth-last-child(4), .info__card:nth-last-child(5), .info__card:nth-last-child(6) {
+  .backstage__card:nth-last-child(4), .backstage__card:nth-last-child(5), .backstage__card:nth-last-child(6) {
       display: none;
   }
 
-  .info .btn {
+
+  .backstage .main__button {
       top: 58px;
   }
 
-  .info__flower--palm {
+  .backstage__flower--palm {
       left: 336px;
       bottom: 105px;
   }
 
-  .info__flower--photo-2 {
+  .backstage__flower--photo-two {
       height: 131px;
   }
 
-  .donation {
+  .friends {
       padding: 19px 0 0;
       min-height: 781px;
   }
 
-  .donation__content.container {
+  .friends__content.container {
       padding: 10px 0 10px 20px;
       max-width: 640px;
       height: 742px;
+
   }
 
-  .donation__title {
+  .friends__title {
       font-size: 42px;
       align-self: flex-start;
       padding-left: 98px;
   }
 
-  .donation__subtitle {
+  .friends__subtitle {
       font-size: 22px;
       line-height: 120%;
   }
 
-  .donation__text {
+  .friends__text {
       margin-bottom: 30px;
 
   }
 
-  .donation__cards-title {
+  .friends__cards-title {
       margin-bottom: 19px;
       align-self: flex-start;
       padding-left: 196px;
   }
 
-  .donation__cards {
+  .friends__cards {
       gap: 42px;
       align-self: flex-start;
       margin-bottom: 41px;
   }
 
-  .donation__card > svg {
+  .friends__card > svg {
       display: none;
   }
 
-  .donation__card:not(:last-child):after {
+  .friends__card:not(:last-child):after {
       content: url('../ico/arrow.png');
       position: absolute;
       top: -16px;
@@ -457,61 +483,60 @@
       z-index: 5;
   }
 
-  .arrow1, .arrow2 {
-    display: none;
-  }
-
-  .donation .btn {
+  .friends .main__button {
       align-self: flex-start;
       margin-left: 151px;
   }
 
-  .comments {
+
+  .request {
       height: 667px;
   }
 
-  .comments__container {
+  .request__container {
       padding-top: 61px;
   }
 
-  .comments__cards-block {
-      width: 100%;
+  .request__cards-block {
+      display: block;
+      max-width: 100%;
+      height: 370px
   }
 
-  .comments__cards {
+  .request__cards {
       flex-direction: column;
       width: 100%;
-      gap: 14px;
   }
 
-  .comments__card {
+
+  .request .request__card {
       width: 100%;
       height: 109px;
   }
 
   .card__wrapper {
       width: calc(100% - 4px);
-      height: 105px;
+      height: calc(100% - 4px);
       padding-left: 10px;
       padding-bottom: 8px;
       overflow: hidden;
   }
 
-  .comments__card-text {
+  .request__card-text {
       padding-left: 5px;
       height: 37px;
   }
 
-  .comments__scroll {
+  .request__scroll {
       display: none;
   }
 
-  .comments .btn {
+  .request .main__button {
       align-self: center;
       width: 240px;
   }
 
-  .info__flower--leav {
+  .backstage__flower--leav {
       height: 201px;
       right: -6px;
       bottom: -67px;
@@ -531,6 +556,7 @@
       grid-template-columns: 1fr 1fr;
       padding: 12px 8px 12px 20px;
       max-width: 640px;
+
   }
 
   .footer__logo-block {
@@ -551,7 +577,7 @@
       margin-bottom: 33px;
   }
 
-  .footer .btn {
+  .footer .main__button {
       grid-area: b;
   }
 
@@ -602,7 +628,7 @@
   }
 
   .feed__block {
-      padding:  31px 0 20px;
+      padding: 31px 0 20px;
   }
 
   .feed__title {
@@ -639,7 +665,8 @@
   }
 
   .pay__line:after {
-      width: 580px;
+      left: 40px;
+      width: 520px;
   }
 
   .pay__title {
@@ -678,11 +705,16 @@
   .pay__cost {
       padding-left: 10px;
   }
+
+  .swiper-container {
+      max-width: 610px;
+  }
 }
 
 @media (max-width: 768px) {
   .nav__menu {
       gap: 30px;
+
   }
 }
 
@@ -707,16 +739,28 @@
       transition: all 0.5s;
   }
 
-  .logo__img {
+  .header .logo__img {
       width: auto;
       height: 15px;
       top: 22px;
-      left: -2px;
+      left: -5px;
   }
 
   .header__container {
       justify-content: space-between;
       padding: 0 20px;
+  }
+
+  .header__container .header__area.active {
+      top: 20px;
+      left: 0;
+      display: block;
+      width: 100vw;
+
+      height: 100vh;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 3;
   }
 
   .header__burger {
@@ -726,6 +770,7 @@
       height: 10px;
       cursor: pointer;
       user-select: none;
+
   }
 
   .header__burger span {
@@ -739,6 +784,7 @@
       transform: scale(1) translate(0px, -50%);
       transition: all 0.5s ease-out;
       user-select: none;
+
   }
 
   .header__burger.active span {
@@ -829,13 +875,16 @@
   .header .nav__container.active {
       top: 0;
       transition: all 0.5s;
+      z-index: 18;
   }
 
-  .panda {
+
+  /*------------------------------------*/
+  .general {
       height: 373px;
   }
 
-  .panda__title {
+  .general__title {
       width: 255px;
       height: 210px;
       font-size: 55px;
@@ -843,18 +892,18 @@
       right: 11px;
   }
 
-  .panda__content:after {
+  .general__content:after {
       top: 44px;
       right: 67px;
       width: 237px;
       height: 237px;
   }
 
-  .panda__background {
+  .general__background {
       height: 373px;
   }
 
-  .panda__content .btn{
+  .general__content .main__button {
       top: 279px;
       left: 15px;
   }
@@ -862,162 +911,166 @@
 }
 
 @media (max-width: 639px) {
-  .info {
+  .backstage {
       height: auto;
       padding-bottom: 81px;
   }
 
-  .info__flower--photo-one {
+  .backstage__flower--photo-one {
       height: 217px;
       right: -40px;
       top: 0;
+
   }
 
-  .info__title-block {
+  .backstage__title-block {
       padding-top: 6px;
       margin-bottom: 10px;
   }
 
-  .info__title-content {
+  .backstage__title-content {
       width: 297px;
   }
 
-  .info__title {
+  .backstage__title {
       font-size: 24px;
       margin-bottom: 9px;
       margin-left: -4px;
   }
 
-  .info__text {
+  .backstage__text {
       width: 100%;
       margin-left: -4px;
       line-height: 138%;
   }
 
-  .info__text:first-of-type {
+  .backstage__text:first-of-type {
       margin-bottom: 20px;
       margin-left: -2px;
       line-height: 135%;
   }
 
-  .info__subtitle {
+  .backstage__subtitle {
       margin-bottom: 9px;
       margin-left: -2px;
   }
 
-  .info__cards {
-      grid-template-columns: 1fr;
-      justify-items: flex-start;
-      row-gap: 20px;
-  }
-
+  /*
+      .backstage__cards {
+          grid-template-columns: 1fr;
+          justify-items: flex-start;
+          row-gap: 20px;
+      }
+  */
   .cards-button {
       display: none;
   }
 
-  .info .btn {
+  .backstage .main__button {
       top: 21px;
       left: 146px;
   }
 
-
-
-  .info__flower--photo-2 {
+  .backstage__flower--photo-two {
       height: 71px;
       right: -22px;
       bottom: -4px;
   }
 
-  .info__flower--palm {
+  .backstage__flower--palm {
       width: 138px;
       left: 508px;
       bottom: 157px;
+
   }
 
-  .donation {
+
+  .friends {
       padding: 20px 11px 20px 10px;
       min-height: 1082px;
   }
 
-  .donation__content.container {
+  .friends__content.container {
       padding-top: 20px;
       padding-left: 0;
       height: 1042px;
       width: 300px;
   }
 
-  .donation__title {
+  .friends__title {
       font-size: 24px;
       padding-left: 35px;
 
       margin-bottom: 11px;
   }
 
-  .donation__subtitle {
+  .friends__subtitle {
       font-size: 18px;
       text-align: center;
       margin-bottom: 19px;
   }
 
-  .donation__note {
+  .friends__note {
       display: none;
   }
 
-  .donation__text {
+  .friends__text {
       display: none;
   }
 
-  .donation__cards-title {
+  .friends__cards-title {
       padding-left: 81px;
       font-size: 24px;
   }
 
-  .donation__cards {
+  .friends__cards {
       flex-direction: column;
       align-self: center;
       margin-bottom: 38px;
   }
 
-  .donation__card:nth-last-child(2) {
+  .friends__card:nth-last-child(2) {
       margin-bottom: -14px;
   }
 
-  .donation__card-logo {
+  .friends__card-logo {
       margin-bottom: 10px;
   }
 
-  .donation .btn {
+  .friends .main__button {
       margin-left: 0;
   }
 
-  .donation__card:not(:last-child):after {
+  .friends__card:not(:last-child):after {
       top: 193px;
       left: 138px;
       transform: rotate(85deg);
   }
 
-  .comments {
+  .request {
       height: 580px;
   }
 
-  .comments__container {
+  .request__container {
       padding: 30px 10px 0;
   }
 
-  .comments__title {
+  .request__title {
       font-size: 24px;
       margin-bottom: 20px;
   }
-
+  .request__cards-block {
+      height: 357px;
+  }
   .card__wrapper {
       padding-top: 10px;
   }
 
-  .comments__cards {
+  .request__cards {
       margin-bottom: 11px;
   }
 
-  .info__flower--leav {
+  .backstage__flower--leav {
       height: 104px;
       bottom: -40px;
       right: -7px;
@@ -1033,6 +1086,7 @@
       flex-direction: column;
       align-items: center;
       padding: 7px 10px 20px;
+
   }
 
   .footer__logo-block {
@@ -1062,7 +1116,7 @@
       margin-bottom: 31px;
   }
 
-  .footer .btn {
+  .footer .main__button {
       order: 3;
       margin-right: 5px;
   }
@@ -1070,6 +1124,7 @@
   .footer .nav__container {
       order: 3;
       margin-right: 0;
+
   }
 
   .footer .nav__menu {
@@ -1077,7 +1132,7 @@
       gap: 30px;
   }
 
-  .footer__designer {
+  .footer__copyright {
       align-self: flex-end;
       left: -11px;
       font-size: 15px;
@@ -1102,7 +1157,7 @@
   }
 
   .feed__info {
-       font-size: 24px;
+      font-size: 24px;
   }
 
   .feed__title {
@@ -1117,6 +1172,7 @@
       margin-bottom: 10px;
       padding: 0;
       line-height: 140%;
+
   }
 
   .feed__block {
@@ -1129,6 +1185,7 @@
       padding-top: 32px;
       margin-left: 0;
       gap: 8px;
+
   }
 
   .feed__diet {
@@ -1173,10 +1230,11 @@
   .pay__line:after {
       width: 262px;
       height: 1px;
-      top: 7px;
+      top: 6px;
+      left: 20px
   }
 
-  .pay__cost  {
+  .pay__cost {
       font-size: 13px;
       padding-left: 5px;
   }
@@ -1240,6 +1298,15 @@
       top: 8px;
       right: 70px;
   }
+  .swiper-container {
+      height: 1388px;
+  }
+  .swiper-slide {
+      gap: 20px;
+  }
+  .swiper-wrapper.backstage__cards {
+      row-gap: 0;
+  }
 }
 
 
@@ -1248,15 +1315,11 @@
       padding: 1px 10px;
   }
 
-  .info__flower--photo-1 {
-    display: none;
-  }
-
-  .panda {
+  .general {
       height: 260px;
   }
 
-  .panda__title {
+  .general__title {
       width: 128px;
       height: 103px;
       font-size: 28px;
@@ -1264,39 +1327,22 @@
       right: 10px;
   }
 
-  .panda__content:after {
+  .general__content:after {
       top: 56px;
       right: 38px;
       width: 119px;
       height: 119px;
   }
 
-  .panda__background {
+  .general__background {
       top: 34px;
       height: 187px;
   }
 
-  .panda__content .btn {
+  .general__content .main__button {
       top: 241px;
       left: 11px;
   }
 
-  .panda__widget {
-    width: 160px;
-    height: 139px;
-  }
-
-  .feed__diet svg:first-of-type {
-    width: 8px;
-    height: 8px;
-  }
-
-  .donation__note {
-    display: none;
-  }
-
-  .donation__text {
-    display: none;
-  }
 
 }

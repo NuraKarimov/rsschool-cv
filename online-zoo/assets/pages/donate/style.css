@@ -1,7 +1,7 @@
 .header {
   position: relative;
 }
-/* Panda */
+
 .panda-block {
   height: 386px;
   width: 100%;
@@ -15,7 +15,6 @@
   object-fit: cover;
 }
 
-/* Donate */
 .donate {
   box-sizing: border-box;
   padding-top: 41px;
@@ -35,7 +34,6 @@
   margin-bottom: 48px;
 }
 
-/* Feed */
 .feed__info {
   font-size: 2.25rem;
   line-height: 130%;
@@ -110,7 +108,6 @@
   top: 53%;
 }
 
-/* Pay */
 .pay__container {
   position: relative;
   align-self: flex-start;
@@ -218,11 +215,9 @@
   left: 30px;
   background-color: #72828E;
 }
-
-.feed__form {
+.feed__form{
   position: relative;
 }
-
 .feed__form:after {
   position: absolute;
   content: '$';
@@ -258,7 +253,7 @@
   border-color: #D31414;
   color: #D31414;
 }
-textarea:focus, input:focus {
+textarea:focus, input:focus{
   outline: none;
   border-color: #4B9200;
   color: #4B9200;
@@ -283,7 +278,7 @@ input[type="number"] {
   margin: 0;
 }
 
-/* Radio */
+
 .radio-container {
   color: #333B41;
   display: flex;
@@ -319,10 +314,12 @@ input[type="number"] {
   height: 16px;
   background: #4B9200;
   border-radius: 50%;
+
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
+
 
   transition: 0.2s ease-in;
 }
@@ -342,12 +339,12 @@ input[type="number"] {
 .feed__submit {
   border: 0;
   margin-bottom: 30px;
-}
 
+}
 .feed__submit:active {
   color: white;
-}
 
+}
 .feed__share {
   color: #333B41;
   line-height: 140%;
